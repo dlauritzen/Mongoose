@@ -1,0 +1,4 @@
+Mongoose
+========
+
+An operating system
