@@ -2,6 +2,7 @@ Mongoose - An Operating System
 ==============================
 
 Copyright (c) Dallin Lauritzen 2012 <dallin@dallinlauritzen.com>
+Hosted by GitHub at <https://github.com/dlauritzen/Mongoose>
 
 Introduction
 ------------
