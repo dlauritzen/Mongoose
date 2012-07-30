@@ -17,7 +17,7 @@ BUILD=build
 INCLUDES = -I $(BOOT) -I $(MEMORY) -I $(STRING) -I $(MAIN) -I $(IO)
 CFLAGS = -g -Wall -O -c -fstrength-reduce -fomit-frame-pointer -finline-functions -nostdinc -fno-builtin
 
-KERNEL_DEPS = $(foreach src, $(shell "find . -name \"*.c\"", src)
+KERNEL_DEPS = $(foreach src, $(shell "find . -name \"*.c\""), src)
 
 # Output
 KERNEL = $(OUT)/kernel.bin
